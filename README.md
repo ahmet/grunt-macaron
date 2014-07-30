@@ -116,3 +116,7 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 
 ## Release History
 * 2014-07-30   v0.0.1   Initial release.
+
+## Contributors
+* [Fatih Kadir Akın](https://github.com/f)
+* [Ahmet AYGÜN](https://github.com/ahmet)
