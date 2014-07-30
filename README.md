@@ -93,6 +93,24 @@ grunt.initConfig({
 });
 ```
 
+#### Using Multiple Files
+In this example, macaron finds and concats the files using glob pattern. And it excludes macros file using `!` prefix since glob pattern includes the macros file.
+
+```js
+grunt.initConfig({
+  macaron: {
+    default: {
+      options: {
+        outputFile: 'dist/output.js'
+      },
+      files: {
+        'src/macros.coffee': ['src/**/*.coffee', '!src/macros.coffee']
+      }
+    }
+  }
+});
+```
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
