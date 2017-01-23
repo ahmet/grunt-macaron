@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # grunt-macaron
 
 > Grunt task for compiling macros for CoffeeScript.
